@@ -20,35 +20,21 @@ from kivy.app import *
 from kivy.uix.gridlayout import *
 from kivy.uix.label import *
 from kivy.uix.button import *
-from kivy.uix.behaviors import *
 from kivy.uix.widget import *
 from kivy.properties import *
 from kivy.graphics import *
 from kivy.graphics.instructions import *
-from kivy.input.motionevent import *
 from kivy.event import *
 from kivy.uix.layout import *
 from kivy.lang import *
-from kivy.clock import *
 from kivy.core.window import *
 from kivy.graphics.context import get_context
 from kivy.uix.image import *
-from kivy.uix.behaviors import *
-from kivy.animation import Animation
-from kivy.properties import StringProperty, NumericProperty, BooleanProperty, ObjectProperty, ListProperty
-from kivy.graphics import Quad, Translate, Rotate, PushMatrix, PopMatrix
-from kivy.graphics import Rectangle, Color, Callback, Rotate, PushMatrix, PopMatrix, Translate, Quad, Scale
 from kivy.core.image import Image
 from kivy.garden.knob import *
 from kivy.uix.boxlayout import BoxLayout
 
-from random import *
-from Queue import *
-from thread import *
-from threading import *
-
 import pyaudio
-import time
 import numpy as np
 import wave
 
