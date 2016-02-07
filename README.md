@@ -21,4 +21,4 @@ This tool requires kivy, numpy, pyaudio and the knob widget from kivy's garden.
 
 
 
-![alt tag](/sceenshot.png)
+![alt text](/sceenshot.png)
