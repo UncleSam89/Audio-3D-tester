@@ -1,5 +1,5 @@
 
-#Audio 3D tester
+# Audio 3D tester
 
 This is a simple audio stereo manipulator in order to test some HRTF Kemar studies.
 http://interface.cipic.ucdavis.edu/sound/tutorial/hrtf.html#KEMAR
@@ -10,6 +10,6 @@ Playing with some of the variables like delay, panning and decay it\'92s possibl
 
 But in the end the mechanism is too fragile too be considered a valid one.\
 
-##Future possibilities
+## Future possibilities
 
 A possible future integration could be the integration of filters in order to reproduce the IIR of the ear\'92s pinna.}
