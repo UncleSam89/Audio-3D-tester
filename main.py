@@ -266,6 +266,7 @@ if __name__ == "__main__":
 	except:
 		try:
 			WARING_PROMPT("CANNOT OPEN " + sys.argv[1] +" FALLBACK ON BACH.WAV","__main__")
+			path = 'bach_mono.wav'
 			f = wave.open('bach_mono.wav','rb')
 
 		except:

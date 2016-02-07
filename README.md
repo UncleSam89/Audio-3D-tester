@@ -10,3 +10,15 @@ Playing with some of the variables like delay, panning and decay it’s possible
 But in the end the mechanism is too fragile too be considered a valid one.
 
 A possible future integration could be the integration of filters in order to reproduce the IIR of the ear’s pinna.
+
+
+##USAGE
+
+This tool requires kivy, numpy, pyaudio and the knob widget from kivy's garden.
+
+	cd path_to_the_folder
+	kivy main.py [mono_file.wav]
+
+
+
+![alt tag](http://sceenshot.png)
