@@ -2,7 +2,7 @@ import kivy
 kivy.require('1.8.0')
 from kivy.config import Config
 import kivy.garden
-kivy.garden.garden_system_dir = '/Users/Sam/.kivy/garden'
+#kivy.garden.garden_system_dir = [your_path_to_kivy_garden] #needed if you are installing widget outside kivy env
 
 WINDOW_HEIGHT = 600
 WINDOW_WIDTH = 350
@@ -10,10 +10,6 @@ SIZE_P = 10
 SIZE_T = 10
 
 import sys, math
-#PYTHON PACKAGES IMPORT SU WINDOWS
-#try: sys.path.append('C:\\Python27\\lib\\site-packages')
-#except: pass
-
 
 Config.set('graphics', 'resizable', '0')
 Config.set('graphics', 'width', str(WINDOW_WIDTH))
